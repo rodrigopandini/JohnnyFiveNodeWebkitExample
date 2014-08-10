@@ -1,4 +1,4 @@
 JohnnyFiveNodeWebkitExample
 ===========================
 
-Using [johnny-five.js](https://github.com/rwaldron/johnny-five) with [node-webkit](https://github.com/rogerwang/node-webkit).
+Example for ["Getting started with Johnny-Five and Node-Webkit"](https://github.com/rwaldron/johnny-five/wiki/Getting-started-with-Johnny-Five-and-Node-Webkit) tutorial.

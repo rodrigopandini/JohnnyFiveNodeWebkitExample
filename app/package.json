@@ -1,0 +1,18 @@
+{
+  "name": "j5nw",
+  "main": "index.html",
+  "version": "0.1.0",
+  "description": "j5nw - Using Johnny-Five with Node-Webkit",
+  "keywords": "johnny-five node-webkit arduino",
+  "window": {
+    "title": "j5nw",
+    "icon": "favicon.ico",
+    "width": 800,
+    "height": 600,
+    "position": "center",
+    "resizable": true,
+    "toolbar": false,
+    "frame": false,
+    "fullscreen": false
+  }
+}

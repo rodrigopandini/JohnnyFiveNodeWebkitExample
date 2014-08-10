@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>j5nw</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <navigation id="menu">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div id="dragBarTop">&nbsp;
+          <button type="button" class="close" aria-hidden="true" id="closeWindow">&times;</button>
+        </div>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navegationBar">
+              <span class="sr-only">Change navegation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="img/nodebot.png">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navegationBar">
+            <ul class="nav navbar-nav">
+              <li  id="linkLed" class="active">
+                <a href="#" >Led</a>
+              </li>
+              <li  id="linkMotor">
+                <a href="#" >Motor</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#"><i class="fa fa-book"></i> Docs</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-rocket"></i> Tour</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#"><i class="fa fa-search"></i> Search</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#"><i class="fa fa-info-circle"></i> About</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Serial Ports button -->
+            <div class="btn-group navbar-right portsButton">
+              <button type="button" class="btn btn-default" id="labelPort">Ports</button>
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" role="menu" id="serialPorts">
+                <li><a href="#">port</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+    </navigation>
+
+
+    <div class="container" id="main">
+
+      <div class="row" id="containerLed">
+        <div class="col-lg-12">
+          <p class="text-center">
+            <i class="fa fa-lightbulb-o jumbotron-icon" id="led"></i>
+            <br/>
+            <button type="button" class="btn btn-lg" id="btnToggleLed">Turn On</button>
+          </p>
+        </div>
+      </div>
+
+      <div class="row" id="containerMotor" hidden>
+        <div class="col-lg-12">
+          <p class="text-center">
+            <i class="fa fa-cog jumbotron-icon" id="motor"></i>
+            <br/>
+            <button type="button" class="btn btn-lg" id="btnToggleMotor">Turn On</button>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

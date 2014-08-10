@@ -1,0 +1,41 @@
+body {
+  margin-top: 68px;
+  background-image: url('../img/background.png');
+}
+
+#dragBarTop {
+  -webkit-app-region: drag;
+  background-color: rgb(63, 63, 63);
+}
+
+#closeWindow {
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+  opacity: 0.5;
+  margin-right: 4px;
+  color: #FFFFFF;
+}
+
+#closeWindow:hover {
+  opacity: 0.9;
+}
+
+#main {
+  margin-top: 160px;
+}
+
+.navbar-brand {
+  padding: 7px 15px;
+}
+
+.portsButton {
+  margin-top: 8px
+}
+
+.jumbotron-icon {
+  font-size: 20em;
+}
+
+.led-on {
+  color: #FFCC33
+}
